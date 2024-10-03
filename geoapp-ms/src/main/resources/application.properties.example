@@ -1,0 +1,24 @@
+# Server Configuration
+# Define o número da porta em que o servidor Spring será executado.
+# Definir como 0 faz com que o servidor escolha uma porta aleatória.
+server.port=0
+
+# Google API Key
+# Chave de API para acessar os serviços do Google.
+# Substitua pelo seu valor real.
+google.api-key=
+
+# Eureka Registration
+# Configurações para registro no Eureka Server (serviço de descoberta).
+# URL do servidor Eureka. Certifique-se de que o Eureka Server esteja em execução nessa URL.
+eureka.client.service-url.defaultZone=http://localhost:8081/eureka/
+
+# Indica se este aplicativo deve se registrar no Eureka.
+eureka.client.register-with-eureka=true
+
+# Indica se este aplicativo deve buscar o registro de outros serviços no Eureka.
+eureka.client.fetch-registry=true
+
+# Application Name
+# Nome da aplicação que será exibido no Eureka Server e utilizado em logs e monitoramento.
+spring.application.name=geoapp

@@ -1,12 +1,16 @@
-
 # Gmail Connection
 spring.mail.host=smtp.gmail.com
 spring.mail.port=587
-spring.mail.username=senderjavamail3@gmail.com
-spring.mail.password=
 spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
 spring.mail.properties.mail.smtp.starttls.required=true
+
+# Email Configuration
+# Configurações para envio de email.
+# Utilize as credenciais fornecidas pelo seu serviço de email.
+# Por exemplo, para o Gmail, você pode precisar de uma senha de aplicativo.
+spring.mail.username= # Insira seu endereço de e-mail aqui.
+spring.mail.password= # Insira a senha (ou hash) fornecida pelo Google aqui.
 
 # Eureka Register
 eureka.client.service-url.defaultZone=http://localhost:8081/eureka/
@@ -17,5 +21,3 @@ eureka.client.fetch-registry=true
 spring.application.name=sender
 
 server.port=0
-
-#

@@ -1,0 +1,42 @@
+# Diretórios de build
+/build/
+target/
+
+# Diretórios de IDEs
+/.idea/
+/*.iml
+/.settings/
+/.classpath
+/.project
+/.vscode/
+
+# Arquivos de configuração da IDE
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Arquivos gerados
+*.swp
+*.tmp
+*.bak
+*.orig
+*.DS_Store
+Thumbs.db
+
+# Dependências do Maven
+/.mvn/
+*.jar
+*.war
+*.ear
+
+# Arquivos do Gradle
+.gradle/
+build/
+
+# Arquivos de testes
+/test-classes/
+
+# Ignorar arquivo de configuração da aplicação
+/application.properties
