@@ -20,6 +20,7 @@
         <module>geoapp-ms</module>
         <module>email-ms</module>
         <module>discovery-ms</module>
+        <module>api-gateway</module>
     </modules>
 
     <properties>
